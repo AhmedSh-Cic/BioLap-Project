@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 	<html>
 	 <head>
-	  <title>Contact us</title>
-          <link rel="shortcut icon" type="image/jpg" href="img/logo.jpg">
+	  <title>Sign Up</title>
+          <link rel="shortcut icon" type="image/jpg" href="img/logo1.jpg">
 	  <style>          
  body{
     margin: 0;
     padding: 0;
-    background-image:url(img/contact.jpg);   
+    background-image:url(img/signup.jpg);   
     background-repeat:no-repeat; 
     background-size:cover;
  }
 
-.contact-form{
+.Contact-form{
 	width: 85%;
   	max-width: 500px;
         margin-top:50px;
-        margin-left:500px;
+        margin-left:700px;
         padding: 30px 40px;
-		color: #FFFFFF;
         border-radius:30px 40px;
         text-align: center;
-        box-shadow: 0px 0px 30px white;
+        box-shadow: 0px 0px 30px orange;
         font-family: "Montserrat",sans-serif;
-   
+        color: #FFFFFF;
 }
 .txt{
     border: 3px solid grey;
@@ -41,17 +40,17 @@
 .txt input,.txt textarea{
      width: 100%;
      border: none;
-	 color: #FFFFFF;
      background:none;
      font-size: 20px;
      margin-top: 14px;
      outline:none;
+     color: #FFFFFF;
 }
 .btn{
     display: inline-block;
-    background: #DFDFDF;
+    background: #696969;
     padding: 14px 0;
-    color: Black;
+    color: white;
     text-transform: uppercase;
     cursor: pointer;
      margin-top: 8px;
@@ -60,12 +59,14 @@
 		</style>
 	 </head>
   <body>
-  <div class="contact-form">
-    <h1>Contact Us</h1>
+  <div class="Contact-form">
+    <h1>Sign Up</h1>
 <!-------------------- Full name-------->
     <div class="txt">
-      <label>Full Name :</label>
-      <input type="text" name="" value="" placeholder="Enter Your Name">
+      <label>First Name :</label>
+      <input type="text" name="" value="" placeholder="Enter Your First Name">
+      <label>Last Name :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Last Name">
     </div>
 <!------------------------------------------------------------------------>
 
@@ -83,14 +84,19 @@
     </div>
 <!------------------------------------------------------------------------------>
 
-<!---------------------------Message section------------->
+<!---------------------------Password section------------->
     <div class="txt">
-      <label>Message :</label>
-      <textarea></textarea>
-    </div>
+    <label >Password</label>
+    <input type="password" password="" value="" placeholder="Enter Password" name="psw">
 
-    <a class="btn">send</a>
-  </div><!---Contact-form- div -closure-->
+    <label> Confirm Password</label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat">
+
+
+    </label>
+    </div>
+    <a class="btn">Sign Up</a>
+  </div><!---Signup-form- div -closure-->
 <!------------------------------------------------------------------------------>
   </body>
 </html>
